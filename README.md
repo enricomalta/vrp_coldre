@@ -7,6 +7,7 @@ Este é um script simples, mas útil, que pode melhorar a experiência dos jogad
 
 - Reposicionamento da arma no coldre do jogador.
 - Compatibilidade com o framework vRP.
+- Não acompanha os arquivos modelos de coldre que eu usei para posicionar as armas no coldre, porém vocês podem obtê-los por aqui. [Pack Holsters - USSF - Bastien Carter](https://pt.gta5-mods.com/player/pack-holsters-eup-not-game-ready)
 
 ## Como Usar
 
@@ -26,4 +27,3 @@ Adicione esse evento na atualização de roupa do seu personagem no servidor
 TriggerEvent('atualizarPosicaoArma') -- Isso reposicionará a arma no coldre do jogador
 
 
-## Não acompanha os arquivos modelos de coldre que eu usei para posicionar as armas no coldre, porém vocês podem obtê-los por aqui. [Pack Holsters - USSF - Bastien Carter](https://pt.gta5-mods.com/player/pack-holsters-eup-not-game-ready)
