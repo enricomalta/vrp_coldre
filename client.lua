@@ -23,8 +23,8 @@ local PistolaPerna = {
 
 		["w_pi_pistol"] = 453432689, -- Pistola
 		["w_pi_pistolmk2"] = -1075685676, -- Pistola MK2
-    ["w_pi_combatpistol"] = 1593441988, -- Glock Policia
-    ["w_pi_appistol"] = 584646201, -- Glock Automatica
+    		["w_pi_combatpistol"] = 1593441988, -- Glock Policia
+    		["w_pi_appistol"] = 584646201, -- Glock Automatica
 		["w_pi_stungun"] = 911657153, -- Taser
 		["w_pi_pistol50"] = -1716589765, -- Desert Eagle
 		["w_pi_sns_pistol"] = -1076751822, -- SNS Pistol
@@ -59,8 +59,8 @@ local PistolaCinto = {
 
 		["w_pi_pistol"] = 453432689, -- Pistola
 		["w_pi_pistolmk2"] = -1075685676, -- Pistola MK2
-    ["w_pi_combatpistol"] = 1593441988, -- Glock Policia
-    ["w_pi_appistol"] = 584646201, -- Glock Automatica
+    		["w_pi_combatpistol"] = 1593441988, -- Glock Policia
+    		["w_pi_appistol"] = 584646201, -- Glock Automatica
 		["w_pi_stungun"] = 911657153, -- Taser
 		["w_pi_pistol50"] = -1716589765, -- Desert Eagle
 		["w_pi_sns_pistol"] = -1076751822, -- SNS Pistol
@@ -95,8 +95,8 @@ local PistolaColete = {
 
 		["w_pi_pistol"] = 453432689, -- Pistola
 		["w_pi_pistolmk2"] = -1075685676, -- Pistola MK2
-    ["w_pi_combatpistol"] = 1593441988, -- Glock Policia
-    ["w_pi_appistol"] = 584646201, -- Glock Automatica
+    		["w_pi_combatpistol"] = 1593441988, -- Glock Policia
+    		["w_pi_appistol"] = 584646201, -- Glock Automatica
 		["w_pi_stungun"] = 911657153, -- Taser
 		["w_pi_pistol50"] = -1716589765, -- Desert Eagle
 		["w_pi_sns_pistol"] = -1076751822, -- SNS Pistol
@@ -129,17 +129,17 @@ local FUZILcosta = {
     y_rotation = 165.0,
     z_rotation = 0.0,
     compatable_weapon_hashes_fuzil = {
+		
         -- MELEE:
-        --["prop_golf_iron_01"] = 1141786504, -- positioning still needs work
-        ["w_me_bat"] = -1786099057,
-
+        	--["prop_golf_iron_01"] = 1141786504, -- positioning still needs work
+        	["w_me_bat"] = -1786099057,
         -- ASSAULT RIFLES:
 		["w_ar_assaultrifle"] = -1074790547, 	  -- AK 103
 		["w_ar_assaultriflemk2"] = 961495388, 	  -- Assalt 2 bug cano
-    ["w_ar_carbinerifle"] = -2084633992,  	  --M4A1
+    		["w_ar_carbinerifle"] = -2084633992,  	  --M4A1
 		["w_ar_carbineriflemk2"] = -86904375,  	  --MPX
 		["w_ar_advancedrifle"] = -1357824103, 	  -- Assalt 3 OK
-    ["w_ar_specialcarbine"] = -1063057011, 	  -- Assalt 4 OK
+    		["w_ar_specialcarbine"] = -1063057011, 	  -- Assalt 4 OK
 		["w_ar_specialcarbinemk2"] = -1768145561, -- Assalt 5 OK
 		["w_ar_bullpuprifle"] = 2132975508, 	  -- Assalt 6 OK
 		["w_ar_bullpupriflemk2"] = -2066285827,   -- Assalt 7 OK
@@ -148,24 +148,24 @@ local FUZILcosta = {
 		["w_ar_heavyrifleh"] = -1357824103, 	  -- Assalt BUG
 		["w_ar_carbinerifle_reh"] = -2084633992,  -- Assalt BUG
         -- SUB MACHINE GUNS:
-    ["w_sb_microsmg"] = 324215364, -- UZI 
+    		["w_sb_microsmg"] = 324215364, -- UZI 
 		["w_sb_smg"] = 736523883, -- MP5
 		["w_sb_smgmk2"] = 2024373456, -- SUB 2
-    ["w_sb_assaultsmg"] = -270015777, -- OK
+    		["w_sb_assaultsmg"] = -270015777, -- OK
 		["w_sb_pdw"] = 171789620, -- Não aparece
         -- SNIPER RIFLES:
-    ["w_sr_sniperrifle"] = 100416529,
+    		["w_sr_sniperrifle"] = 100416529,
 		-- LMG:
 		["w_sb_gusenberg"] = 1627465347,
         -- SHOTGUNS:
-    ["w_sg_assaultshotgun"] = -494615257,
-    ["w_sg_bullpupshotgun"] = -1654528753,
-    ["w_sg_pumpshotgun"] = 487013001,
-    ["w_ar_musket"] = -1466123874,
-    -- ["w_sg_sawnoff"] = 2017895192 don't show, maybe too small?
+    		["w_sg_assaultshotgun"] = -494615257,
+    		["w_sg_bullpupshotgun"] = -1654528753,
+    		["w_sg_pumpshotgun"] = 487013001,
+    		["w_ar_musket"] = -1466123874,
+    		-- ["w_sg_sawnoff"] = 2017895192 don't show, maybe too small?
         -- LAUNCHERS:
-    ["w_lr_firework"] = 2138347493,
-		-- MISC:
+    		["w_lr_firework"] = 2138347493,
+	-- MISC:
 		["prop_ld_jerrycan_01"] = 883325847,
 		["w_am_fire_exting"] = 101631238,
     }
